@@ -151,10 +151,15 @@ body {
   padding: 20px;
 }
 .navbar a {
+  padding: 2px;
   margin-right: 20px;
   text-decoration: none;
   position: relative;
   left: 40%;
+  color: darkblue;
+}
+.navbar a:hover {
+  background-color: lightblue;
 }
 .top-content {
   background-color: cyan;
@@ -162,18 +167,19 @@ body {
   height: 10%;
   display: flex;
   justify-content: center;
+  box-shadow: 0px 20px 20px 20px rgba(0, 0, 0, 0.2);
 }
-.top-content .about {
+.top-content .info {
   justify-content: center;
   background-color: darkcyan;
   padding: 15px;
   width: 50%;
 }
-.top-content .about h1 {
+.top-content .info h1 {
   font-size: 35px;
   margin-left: 18px;
 }
-.top-content .about h2 {
+.top-content .info h2 {
   margin-left: 18px;
   padding-top: 10px;
   font-size: 20px;
@@ -182,7 +188,19 @@ body {
   justify-content: center;
 }
 .top-content .img .me-img {
-  width: 50%;
+  width: 60%;
   height: 80%;
   padding: 20px;
+}
+.bottom-content {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+}
+.bottom-content .about {
+  float: left;
+}
+.bottom-content .about h1 {
+  font-size: 30px;
+  font-weight: bold;
 }
