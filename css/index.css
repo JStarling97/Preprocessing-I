@@ -212,7 +212,7 @@ body {
   margin-left: 11.5%;
   width: 40%;
   background-color: #0ff;
-  padding: 10px;
+  padding-bottom: 10px;
 }
 .bottom-content .about h1 {
   font-family: arial;
@@ -229,20 +229,21 @@ body {
   background-color: cyan;
   width: 40%;
   padding: 10px;
+  font-family: arial;
 }
 .bottom-content h1 {
-  font-family: arial;
   font-size: 30px;
   font-weight: bold;
+}
+.bottom-content tr {
   padding: 10px;
 }
-.bottom-content li {
-  font-family: arial;
+.bottom-content th {
+  padding: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
   border: 1px solid black;
-  width: 30%;
-  padding: 10px;
-  font-size: 20px;
-  width: 80%;
 }
 .footer {
   display: flex;
@@ -253,19 +254,39 @@ body {
 }
 .footer .work {
   margin-left: 13.5%;
+  font-weight: bold;
 }
 .footer .years {
   display: flex;
   flex-direction: row;
   padding: 15px;
-  border-top: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
   margin-top: 10px;
-  margin-left: 9%;
+  margin-left: 11%;
   justify-content: space-between;
 }
-.footer .years h1 {
-  margin-left: 40px;
+.footer .years #work-table {
+  font-family: arial;
+  border-collapse: collapse;
+  width: 91%;
+}
+.footer .years #work-table td,
+.footer .years #work-table th {
+  border: 1px solid black;
+  padding: 8px;
+  font-size: 18px;
+}
+.footer .years #work-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
   font-size: 20px;
-  font-weight: bold;
+}
+.copywrite {
+  display: flex;
+  justify-content: center;
+  font-family: arial;
+  margin-left: 11.5%;
+  padding: 20px;
+  width: 80%;
+  background-color: #0ff;
 }
